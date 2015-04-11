@@ -3,8 +3,15 @@
 <head>
   <title>Velcome to my site - Home</title>
   <link href = "maindesign.css" type = "text/css" rel = "stylesheet" />
+  <script src="jquery-1.11.2.min.js"></script>
 </head>
   <body>
+  <script type = "text/javascript">
+  $(document).ready(function(){
+  	$("#header").animate({height:"+=100px",fontSize:"50px"},"fast");
+	$("#header").animate({height:"-=100px",fontSize:"36px"},"fast");
+  });
+  </script>
   	<div class = "wrapper">
 		<div id = "header">
 			<h1>Hello World!</h1>
