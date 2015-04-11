@@ -8,8 +8,12 @@
   <body>
   <script type = "text/javascript">
   $(document).ready(function(){
-  	$("#header").animate({height:"+=100px",fontSize:"50px"},"fast");
-	$("#header").animate({height:"-=100px",fontSize:"36px"},"fast");
+  	$("#header").animate({height:"+=100px",fontSize:"50px"});
+	$("#header").animate({height:"-=100px",fontSize:"36px"});
+	$("#header").click(function(){
+	  	$(this).animate({height:"+=100px",fontSize:"50px"});
+		$(this).animate({height:"-=100px",fontSize:"36px"});
+	});
   });
   </script>
   	<div class = "wrapper">
