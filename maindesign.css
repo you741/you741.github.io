@@ -26,3 +26,9 @@ h2,h3{
       color:#444;
 	  font-style:italic;
     }
+.time{
+	float:right;
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin:10px;
+}

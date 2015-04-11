@@ -14,15 +14,48 @@
 	  	$(this).animate({height:"+=100px",fontSize:"50px"});
 		$(this).animate({height:"-=100px",fontSize:"36px"});
 	});
+	var dir = true;
+	$("h3").click(function(){
+		if(dir){
+			$(this).animate({fontSize:"50px",opacity:"0.4"});
+		}
+		else{
+			$(this).animate({fontSize:"20px",opacity:"1"});
+		}
+		dir = !dir;
+	});
+	var i = 0;
+	var colors = ["red","blue","green","yellow","black"];
+	var flash = true;
+	setInterval(function(){
+		if(flash){
+			$(".flashy").css("color",colors[i]);
+			i += 1;
+			if (i > 4){
+			 i = 0;
+			}
+		}
+	},1000);
+	$(".flashy").click(function(){
+		flash = !flash;
+	});
+	var myVar=setInterval(function () {myTimer()}, 1000);
+
+	function myTimer() {
+		var d = new Date();
+		document.getElementById("time").innerHTML = d.toLocaleTimeString();
+	}
   });
   </script>
   	<div class = "wrapper">
 		<div id = "header">
 			<h1>Hello World!</h1>
 		</div>
+		<div class = "time" id = "time"></div>
 		<h3>I am zee best you know</h3>
 		<p>Welcome to my site, where I am zee best!</p>
-		<h1>Donate</h1>
+		<h1 class = "flashy">Donate</h1>
+
 		<p>I know I don't do much but if you feel like donating feel free! Probably not going to get anyone but at least you have an option
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 	<input type="hidden" name="cmd" value="_s-xclick">
