@@ -1,0 +1,23 @@
+body,html{
+	background:#334;
+}
+
+#header{
+	background:#CCF;
+	font-family:Verdana, sans-serif;
+}
+
+.right-align{
+	float:right;
+}
+
+.light{
+	background:#EEF;
+}
+span.white a{
+	color:#DDD;
+	text-decoration:none;
+}
+span.white a:hover{
+	color:grey;
+}
