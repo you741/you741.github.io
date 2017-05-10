@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2239,
+				"buffer_size": 2237,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -58,10 +58,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/You/Documents/GitHub/you741.github.io/danku/index.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -75,6 +76,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">>>",
+			"<",
+			"<<",
+			"<<<"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -101,15 +106,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2239,
+						"buffer_size": 2237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1586,
-								1586
+								627,
+								627
 							]
 						],
 						"settings":
@@ -117,7 +122,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 201.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -136,8 +141,8 @@
 						"selection":
 						[
 							[
-								180,
-								180
+								241,
+								241
 							]
 						],
 						"settings":
@@ -156,7 +161,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -193,7 +198,7 @@
 	"project": "MH4.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
