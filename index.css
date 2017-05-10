@@ -14,10 +14,17 @@ body,html{
 .light{
 	background:#EEF;
 }
-span.white a{
+.white a{
 	color:#DDD;
 	text-decoration:none;
 }
-span.white a:hover{
+.white a:hover{
 	color:grey;
+}
+
+ul.white{
+	list-style-type:none;
+}
+ul.white li{
+	display: inline;
 }
