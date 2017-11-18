@@ -56,34 +56,34 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Apache24/htdocs/MH4/index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6977,
+				"buffer_size": 7838,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Apache24/htdocs/MH4/js/index.js",
+			"file": "js/index.js",
 			"settings":
 			{
-				"buffer_size": 641,
+				"buffer_size": 756,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Apache24/htdocs/MH4/css/main.css",
+			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 24611,
+				"buffer_size": 25298,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Apache24/htdocs/MH4/js/navbar.js",
+			"file": "js/navbar.js",
 			"settings":
 			{
 				"buffer_size": 690,
@@ -170,6 +170,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"url",
+			"background",
+			"RalewayBold",
+			"color",
+			"font-family",
+			"navbar",
 			"background",
 			"nav",
 			"navbar",
@@ -278,6 +284,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"RalewayBlack",
 			"translucent-3",
 			"translucent-4",
 			"min-height:calc",
@@ -301,19 +308,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Apache24/htdocs/MH4/index.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6977,
+						"buffer_size": 7838,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3931,
-								3931
+								3356,
+								3356
 							]
 						],
 						"settings":
@@ -322,7 +329,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 708.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -330,55 +337,55 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Apache24/htdocs/MH4/js/index.js",
+					"file": "js/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 641,
+						"buffer_size": 756,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								627,
-								627
+								607,
+								607
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Apache24/htdocs/MH4/css/main.css",
+					"file": "css/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24611,
+						"buffer_size": 25298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1214,
-								1214
+								1853,
+								1853
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": -0.0,
-						"translation.y": 90.0,
+						"translation.x": 0.0,
+						"translation.y": 763.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -386,7 +393,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Apache24/htdocs/MH4/js/navbar.js",
+					"file": "js/navbar.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -397,8 +404,8 @@
 						"selection":
 						[
 							[
-								677,
-								677
+								360,
+								360
 							]
 						],
 						"settings":
@@ -411,7 +418,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -453,7 +460,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "MH4.sublime-project",
+	"project": "/C/Users/You/Documents/GitHub/you741.github.io/MH4.sublime-project",
 	"replace":
 	{
 		"height": 62.0

@@ -1,0 +1,19 @@
+
+#maze-bg {
+  /*larger font == faster loop*/
+  font-size: 100px;
+  line-height: 1;
+  /*this is there to fix the bg*/
+  left: 0px;
+  position: fixed;
+  overflow: hidden;
+  z-index: -1;
+  color: #999;
+  text-shadow: 2px 2px 6px #000;
+  cursor: default;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
