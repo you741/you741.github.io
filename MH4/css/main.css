@@ -64,6 +64,7 @@ p {
 .translucent-3{
     background: rgb(151, 160, 230); /* Fallback for older browsers without RGBA-support */
     background: rgba(49, 60, 75, 0.8);
+    color:white;
 }
 .translucent-4{
     background: rgb(59, 70, 85); /* Fallback for older browsers without RGBA-support */
