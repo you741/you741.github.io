@@ -1,0 +1,873 @@
+@font-face {
+	font-family: "Agenda";
+	src: url("../fonts/agenda/AgendaMedium.ttf");
+}
+
+@font-face {
+	font-family: "AgendaBold";
+	src: url("../fonts/agenda/AgendaBold.ttf");
+}
+
+@font-face {
+	font-family: "AgendaLight";
+	src: url("../fonts/agenda/AgendaLight.ttf");
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family: "Agenda";
+	font-weight: 300;
+	margin: 0;
+	outline: none;
+}
+
+img {
+	-webkit-user-drag: none;
+	user-drag: none;
+}
+
+h1 {
+	font-size: 6em;
+	font-family: "AgendaBold";
+	color: #ffffff;
+	padding-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: "AgendaBold";
+	color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+p {
+	font-size: 1.2em;
+	font-family: "AgendaLight";
+	color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a {
+	font-family: "AgendaLight";
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+#background {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: url(../img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -100;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*Header*/
+header {
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	background: #054378;
+	margin-top: 100vh;
+	top: 0;
+	z-index: 2;
+	-webkit-box-shadow: 0px -10px 85px 0px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px -10px 85px 0px rgba(0,0,0,0.9);
+	box-shadow: 0px -10px 85px 0px rgba(0,0,0,0.9);
+}
+
+header img {
+	height: 70px;
+	margin-top: 15px;
+	margin-left: 20px;
+	float: left;
+}
+
+header h2 {
+	font-size: 2.2em;
+	margin-left: 20px;
+	display: inline;
+}
+
+header .left {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+}
+
+.header-fixed {
+	position: fixed;
+	margin-top: 0;
+	top: 0;
+}
+.sweet-alert button {
+	padding: 20px !important;
+}
+#hamburger {
+	display: none;
+	height: 35px;
+}
+
+.hamburger {
+	padding: 0;
+	height: 35px
+}
+
+#header-branding {
+	display: inline-block;
+}
+
+#header-branding:hover {
+	cursor: pointer;
+}
+
+#nav {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: inline-block;
+	float: right;
+	height: 100px;
+	margin-right: 150px;
+}
+
+#nav li {
+	width: 100px;
+	text-align: center;
+	height: 100%;
+	margin-left: -4px;
+}
+
+#nav li:hover {
+	background: #0a62aa;
+	transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+#nav li, #nav p {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 1.2em;
+	width: 120px;
+	height: 100% !important;
+	transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	padding: 0;
+}
+
+#nav p:hover {
+	color: #ffffff;
+	transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+}
+
+#mlh {
+	position: fixed;
+	top: 0;
+	right: 10px;
+	margin: 0;
+	height: 200px;
+	z-index: 100;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(5, 67, 120, 0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+}
+
+#overflow-nav {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+#overflow-nav li {
+	cursor: pointer;
+}
+
+#overflow-nav li p {
+	color: #ffffff;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+/*Intro*/
+#intro {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#intro h2 {
+	font-family: "AgendaLight";
+	font-size: 1.5em;
+	margin-top: 30px;
+}
+
+.logo {
+	width: 375px;
+}
+
+/*About*/
+#about {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background: #7db0df;
+	text-align: center;
+}
+
+#about a {
+	color: #ffffff;
+	margin-top: 20px;
+}
+
+.mobile-about {
+	margin-top: 100vh;
+}
+
+.directions {
+	text-align: center;
+	display: flex;
+	align-items: top;
+	justify-content: center;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.card {
+	background: #fff;
+	border-radius: 3px;
+	width: 270px;
+	height: 270px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	padding: 15px;
+	margin-top: 40px;
+	margin-right: 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card p {
+	font-family: "Roboto";
+}
+
+/*FAQ*/
+#faq {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background: #ffffff;
+	text-align: center;
+}
+
+#faq h1 {
+	color: #7db0df;
+}
+
+#faq h3 {
+	font-size: 1.75em;
+	font-family: "AgendaBold";
+	color: #7db0df;
+	margin-top: 20px;
+}
+
+#faq p, #faq a {
+	font-family: "AgendaLight";
+	font-size: 1.1em;
+	color: #7db0df;
+	margin-top: 10px;
+}
+
+.faq-qa {
+	padding-bottom: 50px;
+}
+
+#left-faq {
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	top: 0;
+}
+
+#right-faq {
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	top: 0;
+}
+
+/*schedule*/
+#schedule {
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	background: #7db0df;
+	text-align: center;
+}
+
+#schedule h2 {
+	margin-top: 20px;
+	font-family: "AgendaLight";
+}
+
+#schedule table {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #364C6D;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 2px solid #fff;
+	border-collapse: collapse;
+}
+
+#schedule tr {
+	background: #6080d7;
+}
+
+#schedule td {
+	height: 50px;
+	border: 2px solid #fff;
+}
+
+#schedule tr .time {
+	width: 180px;
+}
+
+#left-schedule {
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+#right-schedule {
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+/*Sponsors*/
+#sponsors {
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	background: #fff;
+	text-align: center;
+}
+
+#sponsors h1 {
+	color: #7db0df;
+}
+
+#sponsors a {
+	color: #7db0df;
+}
+
+#sponsors h2 {
+	margin-top: 20px;
+	font-family: "AgendaLight";
+	color: #7db0df;
+}
+
+#sponsors p {
+	margin-top: 20px;
+	color: #7db0df;
+}
+
+#mega {
+	margin-top: 50px;
+}
+
+#giga {
+	margin-top: 50px;
+}
+
+#tera {
+	margin-top: 50px;
+}
+
+#supporter {
+	margin-top: 50px;
+}
+
+#mega img {
+	width: 250px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+#mega .square {
+	width: 130px;
+}
+
+#mega .border {
+	width: 200px;
+}
+
+#giga img {
+	width: 350px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+#tera img {
+	width: 600px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+#supporter img {
+	width: 175px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+#supporter .square {
+	width: 100px;
+}
+
+#partner {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#partner img {
+	width: 225px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+#partner .square {
+	width: 160px;
+}
+
+/*Team*/
+#team {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background: #7db0df;
+	text-align: center;
+}
+
+#team h1 {
+	color: #ffffff;
+}
+
+#team p {
+	color: #ffffff;
+	font-size: 1.4em;
+}
+/*Press*/
+#press {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	background: #fff;
+	text-align: center;
+}
+#press h1 {
+	color:#7db0df;
+	padding: 20px;
+}
+#press p {
+	color: #7db0df;
+	margin-top: 10px;
+	font-size:0.5em;
+}
+
+#press a {
+	margin: 30px;
+}
+.button {
+	margin-top: 40px;
+	width: 300px;
+	font-size: 24px;
+	color: #fff;
+	background-color:#7db0df;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: inline-block;
+	vertical-align:middle;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 2px solid #7db0df;
+	text-decoration: none !important;
+	-webkit-transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+	color: #0092df;
+	background: #fff;
+}
+.person {
+	display: inline-block;
+	margin: 35px;
+}
+
+.person img {
+	border-radius: 50%;
+	width: 165px;
+	height: 165px;
+}
+
+.person .name {
+	font-size: 1.3em;
+	font-family: "AgendaLight";
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+.person .title {
+	font-size: 1em;
+	font-family: "AgendaLight";
+	color: #ffffff;
+}
+
+/*Footer*/
+footer {
+	width: 100%;
+	height: 60px;
+	background: #054378;
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+}
+
+footer p {
+	color: #ffffff;
+	display: inline-block;
+}
+
+footer a {
+	color: #ffffff;
+	font-size: 1.5em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.social-icons {
+	height: 60px;
+	position: absolute;
+	right: 0;
+	margin-right: 50px;
+	top: 0;
+}
+
+/*Tablet*/
+@media only screen and (max-width: 1370px) {
+	h1 {
+		font-size: 4.5em;
+	}
+
+	header {
+		height: 90px;
+		line-height: 90px;
+	}
+
+	header h2 {
+		font-size: 1.75em;
+	}
+
+	header img {
+		height: 50px;
+		margin-top: 20px;
+		margin-left: 15px;
+	}
+
+	#nav {
+		height: 90px;
+		margin-right: 100px;
+	}
+
+	#nav p {
+		font-size: 1.1em;
+		width: 100px;
+	}
+
+	#nav li {
+		width: 100px;
+	}
+
+	#mlh {
+		height: 150px;
+	}
+
+	.logo {
+		width: 350px;
+	}
+
+	#intro h1 {
+		font-size: 4.5em !important;
+	}
+
+	#intro h2 {
+		font-size: 1.5em;
+	}
+
+	#faq h3 {
+		font-size: 1.4em;
+	}
+
+	#left-schedule, #right-schedule {
+		display: inline;
+	}
+
+	#schedule table {
+		width: 80%;
+	}
+
+}
+
+/*Small Tablet*/
+@media only screen and (max-width: 950px) {
+	h1 {
+		font-size: 4em;
+	}
+
+	header h2 {
+		display: none;
+	}
+
+	#left-faq {
+		width: 90%;
+	}
+
+	#right-faq {
+		width: 90%;
+	}
+
+	#sponsors h2 {
+		font-size: 1.5em;
+	}
+
+	#giga img {
+		width: 300px;
+	}
+
+	#mega img {
+		width: 200px;
+	}
+
+	#mega .square {
+		width: 100px;
+	}
+
+	#mega .border {
+		width: 150px;
+	}
+
+	#supporter img {
+		width: 150px;
+	}
+
+	#partner img {
+		width: 175px;
+	}
+
+	#partner .square {
+		width: 140px;
+	}
+
+	.map-overlay {
+		display: none;
+	}
+}
+
+/*Mobile*/
+@media only screen and (max-width: 720px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	header {
+		height: 60px;
+		line-height: 60px;
+	}
+
+	header img {
+		height: 44px;
+		margin-top: 8px;
+		margin-left: 0;
+	}
+
+	#header-branding {
+		margin-left: 80px;
+	}
+
+	#mlh {
+		height: 100px;
+	}
+
+	#hamburger {
+		display: inline-block;
+		padding: 0;
+		left: 20px;
+		top: 12px;
+		position: absolute;
+	}
+
+	header img {
+		top: 0 !important;
+	}
+
+	.overlay {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		visibility: hidden;
+	}
+
+	#intro h1 {
+		font-size: 3em !important;
+	}
+
+	#intro h2 {
+		font-size: 1.3em !important;
+	}
+
+	.logo {
+		width: 200px;
+	}
+
+	.button {
+		display:block;
+		width: 75px;
+		height: 20px;
+		line-height: 20px;
+	}
+
+	#location-map {
+		width: 90% !important;
+		margin-left: 0px !important;
+	}
+
+	#nav {
+		display: none;
+	}
+
+	#sponsors h2 {
+		font-size: 1.25em;
+	}
+
+	.social-icons {
+		margin-right: 10px;
+	}
+}
+
+
+/*::-moz-selection {
+    color: #F99A45;
+    background: #0079F9;
+}
+
+::selection {
+    color: #F99A45;
+    background: #0079F9;
+}*/
+
+/*Google Maps*/
+#location-map {
+    height: 500px;
+    width: 500px;
+	border-radius: 3px;
+	margin-top: 40px;
+	margin-left: 20px;
+	display: inline-block;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#location-map:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.gm-style-iw * {
+	display: block;
+	width: 100%;
+}
+.gm-style-iw h4,
+.gm-style-iw p {
+	margin: 0;
+	padding: 0;
+}
+.gm-style-iw a {
+	color: #4272db;
+}
+
+.map-overlay {
+   background:transparent;
+   position:absolute;
+   width:500px;
+   height:500px; /* your iframe height */
+   top:500px;  /* your iframe height */
+   margin-left: 10px;
+   margin-top:-460px;  /* your iframe height */
+}

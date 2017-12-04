@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="329px" height="162px" viewBox="0 0 329 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="284.106771 76.5058594 294.051432 76.5058594 294.051432 113.524089 250.238281 108.078776"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="43.813151" height="37.0182292" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-3" points="231.384115 57.9960937 240.704427 70.2916667 236.914714 159.901693 203.622396 161.139323"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="37.0820312" height="103.143229" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="240.08138 77 284.08138 77 250.828125 108.508464 238.913411 107.507812"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="45.1679688" height="31.5084635" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <polygon id="path-7" points="69.0664062 68.25 72.8125 95.1660156 54 159 20.6445312 159"></polygon>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="52.1679687" height="90.75" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <polygon id="path-9" points="129.227539 23.6347656 130.699219 14.2919922 150.723633 47.2861328 137.896484 69.5888672"></polygon>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="21.4960938" height="55.296875" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <polygon id="path-11" points="163 18.4472656 165.871094 33.2089844 152.7819 77.8766102 127.535156 161.871094 117.563019 105.685212"></polygon>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="48.308075" height="143.423828" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <path d="M113.986328,83.0400391 L129.467773,22.8349609 C129.467773,22.8349609 139.167969,64.4518229 139.167969,64.8105469 C139.167969,65.1692708 117.892578,106.786133 117.892578,106.786133 L112.90918,83.0400391 L113.986328,83.0400391 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26.2587891" height="83.9511719" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <polygon id="path-15" points="148.590332 90.9975586 156.381836 65.2333984 206.896484 162.962891 168.572266 162.962891"></polygon>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="58.3061523" height="97.7294922" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(-12.000000, -8.000000)">
+            <use id="Rectangle-8" stroke="#AAD4FF" mask="url(#mask-2)" stroke-width="2" fill="#AAD4FF" xlink:href="#path-1"></use>
+            <polygon id="Triangle-12" stroke="#F87F04" fill="#F87F04" points="288.804688 19.3613281 338.522461 17.1591797 320.045808 65.8544922"></polygon>
+            <polygon id="Triangle-13" stroke="#FEC68B" fill="#FEC68B" points="290.723633 24.1152344 322.512695 63.9507696 292.914062 164.145508"></polygon>
+            <polygon id="Triangle-14" stroke="#F89A3A" fill="#F89A3A" points="331 29.6484375 331 160 293.335938 162.470703"></polygon>
+            <polygon id="Triangle-10" stroke="#98ABD9" fill="#98ABD9" points="204 18.5664062 231.648438 55.5664063 204 160.985677"></polygon>
+            <polygon id="Triangle-11" stroke="#090F79" fill="#090F79" points="237.892578 18.7259115 240.516276 69.6380208 203.958984 18.7259115"></polygon>
+            <use id="Rectangle-6" stroke="#6083DB" mask="url(#mask-4)" stroke-width="2" fill="#6083DB" xlink:href="#path-3"></use>
+            <use id="Rectangle-7" stroke="#4EA6FF" mask="url(#mask-6)" stroke-width="2" fill="#4EA6FF" xlink:href="#path-5"></use>
+            <path d="M58.7480469,16 C58.7480469,16 73.4630121,89.6919043 75.3378906,96.5957031 C77.2127691,103.499502 56.0303871,158.957031 56.0303871,158.957031 L21,161 L58.7480469,16 Z" id="Triangle" stroke="#FEC68B" fill="#F5C577"></path>
+            <use id="Rectangle" stroke="#F89A3A" mask="url(#mask-8)" stroke-width="2" fill="#F89A3A" xlink:href="#path-7"></use>
+            <use id="Rectangle-5" stroke="#6083DB" mask="url(#mask-10)" stroke-width="2" fill="#6083DB" xlink:href="#path-9"></use>
+            <polygon id="Triangle-6" stroke="#090F79" fill="#090F79" points="132.813477 18 169.510742 18 149.748047 45.3955078"></polygon>
+            <polygon id="Triangle-7" stroke="#6083DB" fill="#6083DB" points="165.311523 28.0966797 191.704102 133.792969 156.063477 65.3613281"></polygon>
+            <polygon id="Triangle-2" stroke="#E77500" fill="#E77500" points="58.703125 17.6171875 90.4921875 17.6171875 74.5976562 103.162109"></polygon>
+            <polygon id="Triangle-3" stroke="#F39B41" fill="#F39B41" points="90.8613281 20.1777344 95.6247255 95.0794204 98.140625 159.755859 95.6247255 159.755859 76.140625 97.4278072"></polygon>
+            <polygon id="Triangle-4" stroke="#FED7AE" fill="#FED7AE" points="92 22.4824219 112.357422 84.1621094 96.0761719 160.634766"></polygon>
+            <polygon id="Triangle-5" stroke="#007EFE" fill="#007EFE" points="112.513672 80.9101562 127.339844 159 97.6875 159"></polygon>
+            <use id="Rectangle-2" stroke="#4EA6FF" mask="url(#mask-12)" stroke-width="2" fill="#4EA6FF" xlink:href="#path-11"></use>
+            <use id="Rectangle-3" stroke="#AAD4FF" mask="url(#mask-14)" stroke-width="2" fill="#AAD4FF" xlink:href="#path-13"></use>
+            <use id="Rectangle-4" stroke="#98ABD9" mask="url(#mask-16)" stroke-width="2" fill="#98ABD9" xlink:href="#path-15"></use>
+            <polygon id="M-Path-NEW" stroke="#FFFAFA" stroke-width="10" points="18.6084619 164.475137 55.7899088 13.7440558 93.3072675 13.7440558 111.406066 78.1836508 127.932132 13.4751366 165.635724 13.4751366 201.190341 162.634366 167.323024 162.922223 148.592546 100.399151 130.887574 162.634366 93.450898 162.634366 75.560796 99.2085837 56.6769189 163.333808"></polygon>
+            <polygon id="H-Path-NEW" stroke="#FFFAFA" stroke-width="10" points="200.615318 15.2395589 240.699686 15.2395589 240.699686 72.3905152 290.491573 72.3905152 290.491573 15.4468755 335.2224 15.4468755 335.2224 164.09113 290.59068 164.09113 290.59068 110.523245 240.721425 110.523245 240.721425 162.571938 200.256816 162.571938"></polygon>
+        </g>
+    </g>
+</svg>

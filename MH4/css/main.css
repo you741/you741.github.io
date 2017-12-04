@@ -220,7 +220,84 @@ a .active{
 .table{
     background:#EEE;
 }
+@media only screen and (max-width: 720px) {
+	h1 {
+		font-size: 3em;
+	}
 
+	header {
+		height: 60px;
+		line-height: 60px;
+	}
+
+	header img {
+		height: 44px;
+		margin-top: 8px;
+		margin-left: 0;
+	}
+
+	#header-branding {
+		margin-left: 80px;
+	}
+
+	#mlh {
+		height: 100px;
+	}
+
+	#hamburger {
+		display: inline-block;
+		padding: 0;
+		left: 20px;
+		top: 12px;
+		position: absolute;
+	}
+
+	header img {
+		top: 0 !important;
+	}
+
+	.overlay {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		visibility: hidden;
+	}
+
+	#intro h1 {
+		font-size: 3em !important;
+	}
+
+	#intro h2 {
+		font-size: 1.3em !important;
+	}
+
+	.logo {
+		width: 200px;
+	}
+
+	.button {
+		width: 75px;
+		height: 20px;
+		line-height: 20px;
+	}
+
+	#location-map {
+		width: 90% !important;
+		margin-left: 0px !important;
+	}
+
+	#nav {
+		display: none;
+	}
+
+	#sponsors h2 {
+		font-size: 1.25em;
+	}
+
+	.social-icons {
+		margin-right: 10px;
+	}
+}
 /*------------------ui slider ------------------*/
 
 /*! jQuery UI - v1.12.1 - 2017-06-12
