@@ -21,10 +21,3 @@ body,html{
 .white a:hover{
 	color:grey;
 }
-
-ul.white{
-	list-style-type:none;
-}
-ul.white li{
-	display: inline;
-}
