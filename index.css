@@ -1,18 +1,60 @@
-body,html{
-	background:#334;
+body {
+	background:#FFF;
+	height: 100vh;
+	font-family: Century Gothic, sans-serif;
 }
 
-#header{
+h1 {
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+#header {
 	background:#CCF;
-	font-family:Verdana, sans-serif;
+	font-family: Candara, sans-serif;
 }
 
-.right-align{
+#header nav { 
+	background:#CCF;
+	font-family: Candara, sans-serif;
+}
+
+a.navbar-brand {
+	color: black !important;
+}
+
+a.navbar-brand:hover {
+	color: gray !important;
+}
+
+li.active a {
+	background: #336699 !important;
+}
+#footer {
+	color: white;
+	padding: 0;
+	margin: 0;
+	background-color: gray;
+}
+
+#footer ul {
+	text-align: center;
+	margin: auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+#footer ul li {
+	float: left;
+	margin-left: 10px;
+}
+
+.right-align {
 	float:right;
 }
 
-.light{
-	background:#EEF;
+.body-section{
+	background:#FFF;
 }
 .white a{
 	color:#DDD;
