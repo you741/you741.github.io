@@ -10,31 +10,34 @@ h1 {
 }
 
 #header {
-	background:#CCF;
+	background:#AAF;
 	font-family: Candara, sans-serif;
 }
 
-#header nav { 
-	background:#CCF;
+#header nav {
+	background:#AAF;
 	font-family: Candara, sans-serif;
 }
 
-a.navbar-brand {
-	color: black !important;
+#header nav button {
+	color: black;
 }
 
-a.navbar-brand:hover {
-	color: gray !important;
+#header nav a {
+	color: black;
 }
 
-li.active a {
-	background: #336699 !important;
+#header nav div ul li a {
+	color: black;
+}
+#header nav div ul li.active a {
+	color:gray;
 }
 #footer {
-	color: white;
+	height: 25px;
 	padding: 0;
 	margin: 0;
-	background-color: gray;
+	background-color: #AAF;
 }
 
 #footer ul {

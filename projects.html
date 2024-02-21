@@ -1,66 +1,100 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset = "utf-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1">	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Title-->
 	<title>
 		You Zhou, Student at Computer Science Student at the University of Waterloo
 	</title>
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 	<!--Custom Stylesheet-->
 	<link rel="stylesheet" href="index.css" />
 
 	<!-- jQuery library -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
 
 	<!-- Latest compiled JavaScript -->
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 </head>
+
 <body>
-	<div class = "container-fluid" id = "header">
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">You Zhou</a>
-			</div>
-			<div class = "collapse navbar-collapse" id = "navbar">
-				<ul class = "navbar-nav mr-auto">
-					<li class = "nav-item"><a href = "index.html">Home</a></li>
-					<li class = "nav-item active"><a href = "#" class = "nav-link">Projects<span class = "sr-only">(current)</span></a></li>
+	<div class="container-fluid" id="header">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="index.html">YZ</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+					</li>
+					<!--li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Dropdown
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</li-->
 				</ul>
+				<!--form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			  </form-->
 			</div>
 		</nav>
 	</div>
-	<div class = "container-fluid light" style = "margin-top:50px;min-height:calc(100vh - 80px)">
+	<div class="container-fluid light" style="margin-top:50px;min-height:calc(100vh - 80px)">
 		<h1>Projects</h1>
-		<p>This page contains some projects that I have created. I have created several projects using a variety of different programming methods, and I am always looking for chances to work on more creative projects. Feel free to contact me if there are any projects that I can help with, I am always looking for chances to develop new software.</p>
+		<p>This page contains some projects that I have created. I have created several projects using a variety of
+			different programming methods, and I am always looking for chances to work on more creative projects. Feel
+			free to contact me if there are any projects that I can help with, I am always looking for chances to
+			develop new software.</p>
 		<ul>
-			<li><a href = "#fealexlegion">Fire Emblem Alex Legion</a> - a fun game created in PyGame based on the Fire Emblem GBA games.</li>
+			<li><a href="#fealexlegion">Fire Emblem Alex Legion</a> - a fun game created in PyGame based on the Fire
+				Emblem GBA games.</li>
 		</ul>
-		<h2 id = "fealexlegion">Fire Emblem Alex Legion</h2>
-		<p>Fire Emblem Alex Legion is a spin off of the Fire Emblem gameboy games made using PyGame. In the game, you can control a variety of characters in a 2D grid based tactical war game.</p>
-		 <div id = "fecarousel" class = "carousel slide" data-ride="carousel" style = "width:60%; margin: auto;">
-			<div class = "carousel-inner">
-				<div class = "carousel-item active">
-					<img src = "FireEmblem1.png" class = "d-block w-100" />
+		<h2 id="fealexlegion">Fire Emblem Alex Legion</h2>
+		<p>Fire Emblem Alex Legion is a spin off of the Fire Emblem gameboy games made using PyGame. In the game, you
+			can control a variety of characters in a 2D grid based tactical war game.</p>
+		<div id="fecarousel" class="carousel slide" data-ride="carousel" style="width:60%; margin: auto;">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="FireEmblem1.png" class="d-block w-100" />
 				</div>
-				<div class = "carousel-item">
-					<img src = "FireEmblem2.png" class = "d-block w-100" />
+				<div class="carousel-item">
+					<img src="FireEmblem2.png" class="d-block w-100" />
 				</div>
-				<div class = "carousel-item">
-					<img src = "FireEmblem3.png" class = "d-block w-100" />
+				<div class="carousel-item">
+					<img src="FireEmblem3.png" class="d-block w-100" />
 				</div>
-				<div class = "carousel-item">
-					<img src = "FireEmblem4.png" class = "d-block w-100" />
+				<div class="carousel-item">
+					<img src="FireEmblem4.png" class="d-block w-100" />
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#fecarousel" role="button" data-slide="prev">
@@ -71,21 +105,23 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
-		 </div>
-		<p><a href = "https://github.com/you741/Fire-Emblem-Alex-Legion-Graphic-Edition">Link to the game</a></p>
-		<h2 id = "discjudge">DiscJudge</h2>
-		<p>DiscJudge is a discord bot that can conduct a simple Kahoot style quiz. It uses DataStax database to store quiz questions. The project won the prize for "Best Use/Application of the DCP API."</p>
-		<p><a href = "https://github.com/you741/discjudge">Link to the project</a></p>
-		<h2 id = "biquadris">Biquadris</h2>
+		</div>
+		<p><a href="https://github.com/you741/Fire-Emblem-Alex-Legion-Graphic-Edition">Link to the game</a></p>
+		<h2 id="discjudge">DiscJudge</h2>
+		<p>DiscJudge is a discord bot that can conduct a simple Kahoot style quiz. It uses DataStax database to store
+			quiz questions. The project won the prize for "Best Use/Application of the DCP API."</p>
+		<p><a href="https://github.com/you741/discjudge">Link to the project</a></p>
+		<h2 id="biquadris">Biquadris</h2>
 		<p>Biquadris is a 2 player tetris game meant to be run on Linux.</p>
-		<p><a href = "https://github.com/you741/Biquadris">Link to the game</a></p>
+		<p><a href="https://github.com/you741/Biquadris">Link to the game</a></p>
 	</div>
-	<div class = "container-fluid" id = "footer">
-		<ul class = "white">
-				<li><a href = "http://www.github.com/you741" target="_blank">GitHub</a> |</li>
-				<li><a href = "http://www.facebook.com/you.zhou.96592" target="_blank">Facebook</a> |</li>
-				<li><a href = "https://www.linkedin.com/in/you-zhou-aa477274/" target="_blank">LinkedIn</a></li>
+	<div class="container-fluid" id="footer">
+		<ul class="white">
+			<li><a href="http://www.github.com/you741" target="_blank">GitHub</a> |</li>
+			<li><a href="http://www.facebook.com/you.zhou.96592" target="_blank">Facebook</a> |</li>
+			<li><a href="https://www.linkedin.com/in/you-zhou-aa477274/" target="_blank">LinkedIn</a></li>
 		</ul>
 	</div>
 </body>
+
 </html>
